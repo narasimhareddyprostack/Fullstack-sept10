@@ -23,7 +23,6 @@ console.log(shirt_Size.length);
 for (i = 0; i < shirt_Size.length; i++) {
   console.log(shirt_Size[i], i);
 }
-
 */
 for (let x of shirt_Size) {
   console.log(x);
