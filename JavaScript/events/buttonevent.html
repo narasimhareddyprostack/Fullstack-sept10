@@ -1,0 +1,34 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Learning Events</h1>
+    </hr>
+     <label> Name</label>
+    <input type="text" id="up123" onchange="xyz()"> <br/><br/><br/>
+
+    <button onclick="wish()" id="Ravi" style="background-color: aqua">
+
+      Wish
+    </button>
+    <button ondblclick="wish2()" id="Ravi" style="background-color:brown">
+     Double Click
+    </button>
+   
+    <h1 id='hiddentext'> Welcome to Pro Stack Academy</h1>
+   
+<script>
+      function wish() {
+        document.getElementById("Ravi").style.backgroundColor = "#60712F";
+      }
+
+      function xyz() {
+        var x = document.getElementById("up123").;
+        console.log(x)
+      }
+
+      function wish2(){
+              document.getElementById('hiddentext').innerHTML = "Welcome to Double Click"
+      }
+    </script>
+  </body>
+</html>

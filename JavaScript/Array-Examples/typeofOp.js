@@ -1,4 +1,4 @@
-var Brand_Id = 101;
+var Brand_Id = 101.111;
 var Brand_Name = "PE";
 var p_Avail = true;
 var color = null;
