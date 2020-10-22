@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Class Example</title>
+  </head>
+  <body>
+    <nav><h1>Class - ES6 Featuers</h1></nav>
+    <script>
+      class BankAccount {
+        constructor(accNo, accName) {
+          this.accNo = accNo;
+          this.accName = accName;
+          console.log("initilization");
+        }
+        openAccount() {
+          console.log("Account Opened..............:", this.account_No);
+        }
+        deposit() {}
+        withdrawl() {}
+        getStatement() {
+          console.log("Get Statement..............");
+        }
+        closeAccount() {}
+      }
+      var account_NR = new BankAccount(9591, "Narasimha Reddy");
+
+      var account_MM = new BankAccount(9999, "Mayank M");
+      console.log(account_NR);
+
+      console.log("Narasimha Reddy Account No: ", account_NR.account_No);
+      account_NR.openAccount();
+      console.log("***********************************************");
+      console.log("Mayank Account No: ", account_MM.account_No);
+      account_MM.openAccount();
+    </script>
+  </body>
+</html>
