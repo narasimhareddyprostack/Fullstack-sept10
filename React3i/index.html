@@ -1,0 +1,30 @@
+<html>
+<head>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="girija" >
+	
+</div>
+<script type="text/babel">
+
+function App(){
+return (<div> <h1> welcome to PSA.... </h1><Order/></div>)
+	}
+	
+class Order extends React.Component{
+	render(){ 
+		return <h4> Hello - From Class Comp </h4>
+	}
+}
+
+
+
+ReactDOM.render(<App/>,document.getElementById('girija'))
+</script>
+</body>
+
+
+</html>
