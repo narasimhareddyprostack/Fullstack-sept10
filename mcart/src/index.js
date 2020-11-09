@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
-import App from "./Pooja/App";
-import Order from "./Pooja/Order";
+import App from "./App";
+
 
 // const ele = <h1> Testing with out Comp</h1>;
 // const wyr = document.getElementById("xyz");
@@ -15,7 +15,7 @@ import Order from "./Pooja/Order";
 ReactDOM.render(
   <>
     <App />
-    <Order />
+    
   </>,
   document.getElementById("xyz")
 );
