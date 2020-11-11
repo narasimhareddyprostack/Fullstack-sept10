@@ -1,10 +1,10 @@
 import React from "react";
-import ParentUI from "./PropsClass/ParentUI";
+import ChangeName from "./UserLogin/ChangeName";
 
 function App() {
   return (
     <div>
-      <ParentUI />
+      <ChangeName />
     </div>
   );
 }
