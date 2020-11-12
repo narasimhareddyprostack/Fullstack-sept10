@@ -1,10 +1,11 @@
 import React from "react";
-import ChangeName from "./UserLogin/ChangeName";
-
+import Login from "./PSEx/Login";
+import NavBar from "./NavBar";
 function App() {
   return (
     <div>
-      <ChangeName />
+      <NavBar />
+      <Login />
     </div>
   );
 }
