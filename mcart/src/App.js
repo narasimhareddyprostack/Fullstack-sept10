@@ -1,11 +1,12 @@
 import React from "react";
-import Login from "./PSEx/Login";
 import NavBar from "./NavBar";
+import EventState from "./EventHandling/EventState";
+import Pstate from "./EventHandling/PState";
 function App() {
   return (
     <div>
       <NavBar />
-      <Login />
+      <Pstate />
     </div>
   );
 }
