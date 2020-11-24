@@ -1,0 +1,17 @@
+class Comp fun 
+props 
+State - setState({ }, ()=>{} ),   - completed
+        useState(), 
+        Redux State  
+Event Handing, Binding
+--------------------------------------------
+Conditonal Rendering 
+           Ternary Operator 
+           ?  :
+          codition ?  true      :  false
+
+render(    return( jsx -- deals UI)
+)
+
+
+

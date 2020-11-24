@@ -1,12 +1,12 @@
 import React from "react";
 import NavBar from "./NavBar";
 import EventState from "./EventHandling/EventState";
-import Pstate from "./EventHandling/PState";
+import Order from "./Render/Order";
 function App() {
   return (
     <div>
       <NavBar />
-      <Pstate />
+      <Order />
     </div>
   );
 }
