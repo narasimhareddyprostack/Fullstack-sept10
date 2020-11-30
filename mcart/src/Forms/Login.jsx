@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-
-export class Login extends Component {
+class Login extends Component {
   state = {
     name: "",
     email: "",
@@ -14,14 +13,13 @@ export class Login extends Component {
   formHandler = (event) => {
     event.preventDefault();
     if (true) console.log(this.state);
-    //dispatch the action .
-    // view to action ---> reducer - > store - > action
   };
-
+  //dispatch the action .
+  // view to action ---> reducer - > store - > action
   render() {
     return (
       <React.Fragment>
-        <div className="container mt-5">
+        <div className="container mt-5 col-md-4">
           <pre>{JSON.stringify(this.state)}</pre>
           <form onSubmit={this.formHandler}>
             <div className="form-group">
@@ -50,7 +48,11 @@ export class Login extends Component {
                 name="password"
               />
             </div>
-            <button type="submit"> Submit </button>
+            <div className="form-group">
+              <button type="submit" className="btn btn-primary">
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </React.Fragment>
