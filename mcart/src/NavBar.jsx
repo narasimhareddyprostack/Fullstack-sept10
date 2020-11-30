@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <div>
       <nav className="navbar navbar-light bg-primary">
-        <a className="navbar-brand">State and Props Ex</a>
+        <a className="navbar-brand">Redux Example</a>
       </nav>
     </div>
   );

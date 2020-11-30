@@ -1,0 +1,2 @@
+export const SAY_GOOD_MORNING = "SAY_GOOD_MORNING";
+export const SAY_GOOD_NIGHT = "SAY_GOOD_NIGHT";
