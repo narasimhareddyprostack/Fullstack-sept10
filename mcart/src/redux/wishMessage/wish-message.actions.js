@@ -5,6 +5,12 @@ let sayGoodMornig = () => {
     payload: "Good Morning Messag",
   };
 };
+let sayGoodAfterNoon = () => {
+  return {
+    type: "SAY_GOOD_AFTERNOON",
+    payload: "Good Night Messag",
+  };
+};
 let sayGoodNight = () => {
   return {
     type: "SAY_GOOD_NIGHT",
@@ -12,4 +18,4 @@ let sayGoodNight = () => {
   };
 };
 
-export { sayGoodMornig, sayGoodNight };
+export { sayGoodMornig, sayGoodNight, sayGoodAfterNoon };
